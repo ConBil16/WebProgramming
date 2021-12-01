@@ -1,0 +1,20 @@
+table, th, td {
+    border: 1px solid black;
+
+}
+
+table{
+    background-color: aquamarine;
+}
+
+th, td{
+    padding: 10px;
+}
+
+td{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}

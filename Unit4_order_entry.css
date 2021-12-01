@@ -1,0 +1,63 @@
+.contactDetails{
+    border: blue 2px solid;
+    text-align: left;
+    background-color: #CBDDE7;
+    width: 600px;
+}
+
+.contactDetails label {
+    margin-top: .5em;
+    display:inline-block;
+    width:6em; /* or whatever you are setting for width */
+}
+
+.Selection{
+    margin-top: 50px;
+    border: blue 2px solid;
+    padding: 5px;
+    width: 600px;
+    text-align: center;
+    background-color: #CBDDE7;
+}
+
+main{
+    background-color: #DDE7CB;
+}
+
+.Selection label{
+    margin-top: .5em;
+    display:inline-block;
+    width:6em;
+}
+
+.contactDetails{
+    width: 600px;
+}
+
+#placeholder{
+    margin: 40px;
+    border: black solid;
+}
+
+#clear{
+    background-color: red;
+    color: white;
+    margin-left: 50px;
+}
+
+#buttons{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.right{
+    margin-left: 50%;
+    height: 420px;
+}
+
+.left{
+    width: 50%;
+    height: 420px;
+    float: left;
+}
+

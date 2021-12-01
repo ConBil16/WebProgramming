@@ -1,0 +1,53 @@
+.right{
+    margin-left: 50%;
+    height: 420px;
+    padding-top: 5%;
+}
+
+.left{
+    width: 50%;
+    height: 420px;
+    float: left;
+    
+}
+
+.table{
+    height: 170px;
+    overflow: scroll;
+}
+
+.contactDetails{
+    border: blue 2px solid;
+    text-align: left;
+    background-color: #CBDDE7;
+    width: 600px;
+}
+
+.contactDetails label {
+    margin-top: .5em;
+    display:inline-block;
+    width:7em; /* or whatever you are setting for width */
+    padding-right: 10px;
+}
+
+main{
+    background-color: #DDE7CB;
+}
+
+.contactDetails{
+    width: 600px;
+}
+
+#Delete{
+    color: white;
+    background-color: red;
+}
+
+.buttons{
+    margin-top: 20px;
+}
+
+button, #daSubmit{
+    margin-right: 20px;
+    border-radius: 4px;
+}
