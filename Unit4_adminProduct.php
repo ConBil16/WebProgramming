@@ -54,7 +54,7 @@ $productsData = getProducts($conn);
 
     
         <div class= "right">
-        <form>
+        <form id = "myForm">
         <fieldset class="contactDetails">
                 <legend><span>Product Information</span></legend>
                 
@@ -62,7 +62,7 @@ $productsData = getProducts($conn);
                 <input type="text" name="name" id="name" required>
                 <br />
                 <label for="imageName">Image Name: * </label>
-                <input type="text" name="secondname" id="secondname" pattern="[A-Za-z ']{1,}"  required>
+                <input type="text" name="imageName" id="imageName" pattern="[A-Za-z ']{1,}"  required>
                 <br />
                 <label for="quantity">Quantity</label>
                 <input type="number" id="Quantity" name="Quantity" required>

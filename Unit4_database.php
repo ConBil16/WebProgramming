@@ -204,6 +204,19 @@ function updateOrder($conn, $purchase, $productID, $customerID, $amount, $tax, $
         $stmt->close();
     }
 
+    function addProduct ($conn, $productName, $imageName, $quantity, $price, $inactive){
+        $query = "INSERT INTO product (product_name, image_name, price, in_stock, inactive)
+        VALUES (?,?,?,?,?)";
+        $stmt = $conn->prepare( $query );
+        $stmt->bind_param("ssdii", $productName, $imageName, $price, $quantity, $inactive);
+        $stmt->execute();
+        $stmt->close();
+    }
+
+    function updateProduct ($conn, $productName, $imageName, $quantity, $price, $inactive){
+        //$query = "UPDATE product SET product"
+    }
+
 
 
 
